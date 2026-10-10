@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
         body {
             font-family: calibri;
             background-color: #f4f7fb;
-            background-image: url(images/desert-rocks-3840x2160-27362.jpg);
+            background-image: url(images/sand-dunes-moon-3840x2160-26311.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            padding-top: 80px;
+            padding-bottom: 50px;
 
         }
     </style>
 
      <style>
         .entireform{ width: 650px;
-            height: 1290px;
+            height: 1300px;
             margin: auto;
-            background-color: rgb(210, 137, 104);
+            background-color: rgb(251, 247, 244);
             border-radius: 12px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-           
+            width: 650px;
+            flex-shrink: 0;
+            margin: 0;
+            border: none;
+            text-align: center;
         }
      </style>
 
@@ -30,9 +36,48 @@
 </head>
 <body>
 
+    <div class="pagecontainer">
+
+         <div class="contactdetails">
+        <p>Contact</p>
+        <h1>Have a Question?</h1>
+        
+        <p>You can reach me on my E-mail or number and I'll get to you as soon as possible</p>
+
+        <p><i class="fa-solid fa-envelope"></i> realid5@gmail.com</p>
+        <p><i class="fa-solid fa-map-pin"></i> Chhattisgarh, India</p>
+        <p><i class="fa-duotone fa-solid fa-phone"></i> +91 9871243365</p>
+    </div>
+    
+    <style>
+        .contactdetails{
+            width: 350px;
+            margin-top: 40px;
+            color: #15161a;
+        }
+
+        .contactdetails h1 {
+            position: static;
+            top: auto;
+            font-size: 58px;
+            margin-bottom: 20px;
+        }
+
+        .contactdetails p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 28px;
+            font-weight: bold;
+        }
+    </style>
+
+
+
     <div class="entireform">
 
     <h1 style="font-family: calibri; font-size: 40px; text-align: center;" >Contact-Form</h1>
+
+    
     <hr style="margin-top: 100px;">
  
     <style>
@@ -246,7 +291,7 @@
             border: none;
             border-radius: 7px;
             font-size: 14px;
-            background: linear-gradient(90deg, #2395ff , #002852
+            background: linear-gradient(90deg, #ead9d2 , #15161a 50%
             );
             background-size: 150% 100%;
             background-position: left;
@@ -260,18 +305,21 @@
 
     </div>
 
+   
+
     <style>
-        .entireform{
-            width: 650px;
-            margin: auto;
-            margin-right: auto;
-            border: none;
-            text-align: center;
-            
+        .pagecontainer{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            gap: 50px;
+            padding: 0 40px;
         }
-    </style> 
+    </style>
 
-
+    </div>
+    
+    
 
 </body>
 </html>
