@@ -7,6 +7,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
             padding-top: 80px;
             padding-bottom: 50px;
         }
@@ -15,22 +16,26 @@
          { 
             width: 650px;
             height: 1230px;
-            margin: auto;
+            margin-left: 600px;
             background-color: rgb(251, 247, 244);
             border-radius: 12px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
             width: 650px;
             flex-shrink: 0;
-            margin: 0;
             border: none;
             text-align: center;
+            
         }
 
          .contactdetails
          {
             width: 350px;
-            margin-top: 40px;
+            margin-top: 65px;
+            margin-right: 850px;
             color: #15161a;
+            position: fixed;
+            top: 40px;
+        
         }
 
         .contactdetails h1 
@@ -39,6 +44,7 @@
             top: auto;
             font-size: 58px;
             margin-bottom: 20px;
+            
         }
 
         .contactdetails p 
@@ -47,6 +53,7 @@
             line-height: 1.8;
             margin-bottom: 28px;
             font-weight: bold;
+            color: #f4f7fb;
         }
 
          h1

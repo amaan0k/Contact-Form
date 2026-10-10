@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="gptversion.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+</head>
+<body>
+
+    <main class="page-container">
+
+        <section class="contact-details">
+            <p class="eyebrow">Contact</p>
+
+            <h1>Have a Question?</h1>
+
+            <p class="intro">
+                You can reach me by email or phone, and I'll get back
+                to you as soon as possible.
+            </p>
+
+            <address class="contact-list">
+                <a href="mailto:realid5@gmail.com">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    <span>realid5@gmail.com</span>
+                </a>
+
+                <p>
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                    <span>Chhattisgarh, India</span>
+                </p>
+
+                <a href="tel:+919871243365">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    <span>+91 9871243365</span>
+                </a>
+            </address>
+        </section>
+
+        <section class="form-card" aria-labelledby="form-title">
+
+            <header class="form-header">
+                <h2 id="form-title">Contact Form</h2>
+            </header>
+
+            <form class="contact-form" action="#" method="post">
+
+                <fieldset class="field-group">
+                    <legend>Client Name</legend>
+
+                    <div class="name-fields">
+                        <label>
+                            <span>First Name</span>
+                            <input
+                                type="text"
+                                name="firstName"
+                                autocomplete="given-name"
+                                required
+                            >
+                        </label>
+
+                        <label>
+                            <span>Middle Name</span>
+                            <input
+                                type="text"
+                                name="middleName"
+                                autocomplete="additional-name"
+                            >
+                        </label>
+
+                        <label>
+                            <span>Last Name</span>
+                            <input
+                                type="text"
+                                name="lastName"
+                                autocomplete="family-name"
+                                required
+                            >
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="field-row">
+                    <label class="field">
+                        <span>Phone Number</span>
+                        <input
+                            type="tel"
+                            name="phone"
+                            autocomplete="tel"
+                            placeholder="+91"
+                            required
+                        >
+                        <small>Please enter a valid phone number.</small>
+                    </label>
+
+                    <label class="field">
+                        <span>Email</span>
+                        <input
+                            type="email"
+                            name="email"
+                            autocomplete="email"
+                            placeholder="example@example.com"
+                            required
+                        >
+                    </label>
+                </div>
+
+                <fieldset class="field-group">
+                    <legend>Address</legend>
+
+                    <label class="field">
+                        <span>Street Address</span>
+                        <input
+                            type="text"
+                            name="address"
+                            autocomplete="address-line1"
+                        >
+                    </label>
+
+                    <label class="field">
+                        <span>Street Address Line 2</span>
+                        <input
+                            type="text"
+                            name="addressLine2"
+                            autocomplete="address-line2"
+                        >
+                    </label>
+
+                    <div class="field-row">
+                        <label class="field">
+                            <span>City</span>
+                            <input
+                                type="text"
+                                name="city"
+                                autocomplete="address-level2"
+                            >
+                        </label>
+
+                        <label class="field">
+                            <span>State/Province</span>
+                            <input
+                                type="text"
+                                name="state"
+                                autocomplete="address-level1"
+                            >
+                        </label>
+                    </div>
+
+                    <label class="field">
+                        <span>Postal/Zip Code</span>
+                        <input
+                            type="text"
+                            name="postalCode"
+                            autocomplete="postal-code"
+                        >
+                    </label>
+                </fieldset>
+
+                <label class="field comment-field">
+                    <span>Comment</span>
+                    <textarea name="comment" rows="6"></textarea>
+                </label>
+
+                <button class="submit-button" type="submit">
+                    Submit
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
