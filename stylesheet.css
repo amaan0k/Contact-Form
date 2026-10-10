@@ -1,0 +1,186 @@
+
+        body 
+        {
+            font-family: calibri;
+            background-color: #f4f7fb;
+            background-image: url(images/sand-dunes-moon-3840x2160-26311.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+         .entireform
+         { 
+            width: 650px;
+            height: 1230px;
+            margin: auto;
+            background-color: rgb(251, 247, 244);
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            width: 650px;
+            flex-shrink: 0;
+            margin: 0;
+            border: none;
+            text-align: center;
+        }
+
+         .contactdetails
+         {
+            width: 350px;
+            margin-top: 40px;
+            color: #15161a;
+        }
+
+        .contactdetails h1 
+        {
+            position: static;
+            top: auto;
+            font-size: 58px;
+            margin-bottom: 20px;
+        }
+
+        .contactdetails p 
+        {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 28px;
+            font-weight: bold;
+        }
+
+         h1
+         {
+            position: relative;
+          top: 20px;
+        }
+
+        hr
+        {
+            border: none;
+            border-top: 1px solid rgb(224, 221, 221);
+        }
+
+        .client-label
+        {
+            text-align: left;
+            margin-top: 40px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+         .client-section
+         {
+        text-align: left;
+        width: 500px;
+        margin: auto;
+        
+        }
+
+         .name-box{
+        display: inline-block;
+        margin-top: 3px;
+         }
+
+        .name-box input
+        {
+        width: 150px;
+        height: 32px;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 10px;
+        transition: box-shadow 0.2s;
+         }
+
+        .name-box input:hover
+        {
+        box-shadow: 0 0 5px rgb(112, 201, 246);
+         }
+
+         .name-box1
+         {
+            display: inline-block;
+            width: 220px;
+            margin-top: 10px;
+            margin-right: 25px;
+            vertical-align: top;
+
+        }
+
+        .name-box1 input
+        {
+            width: 220px;
+            height: 35px;
+            border: 1px solid rgb(218, 218, 218); 
+            border-radius: 10px;
+            transition: box-shadow 0.2s;
+        }
+
+        .name-box1 input:hover
+        {
+        box-shadow: 0 0 5px rgb(112, 201, 246);
+         }
+
+         .phonemail
+         {
+        width: 500px;
+        margin: auto;
+        border: none;
+        text-align: left;
+         }
+
+         .adress-box input{
+        width: 470px;
+        height: 35px;
+        border: 1px solid rgb(218, 218, 218); 
+        border-radius: 10px;
+        transition: box-shadow 0.2s;
+                       
+         }
+
+        .adress-box
+        {
+        margin: auto;
+        width: 500px;
+        border: none;
+        text-align: left;
+        
+         }
+
+        .adress-box input:hover
+        {
+        box-shadow: 0 0 5px rgb(112, 201, 246);
+         }
+
+         .commentbox textarea:hover
+         {
+        box-shadow: 0 0 5px rgb(112, 201, 246);
+         }
+
+         .submitbtn
+         {
+            width: 150px;
+            height: 40px;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            font-size: 14px;
+            background: linear-gradient(90deg, #ead9d2 , #15161a 50%
+            );
+            background-size: 150% 100%;
+            background-position: left;
+            transition: background-position 0.1s ease ;
+        }
+
+        .submitbtn:hover
+        {
+            background-position: right;
+        }
+
+        .pagecontainer
+        {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            gap: 50px;
+            padding: 0 40px;
+        }
